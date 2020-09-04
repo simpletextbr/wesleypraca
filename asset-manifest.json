@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/wesleypraca/static/css/main.506ad5d0.chunk.css",
-    "main.js": "/wesleypraca/static/js/main.090b218c.chunk.js",
-    "main.js.map": "/wesleypraca/static/js/main.090b218c.chunk.js.map",
+    "main.css": "/wesleypraca/static/css/main.c4034eb7.chunk.css",
+    "main.js": "/wesleypraca/static/js/main.3ba6c8dc.chunk.js",
+    "main.js.map": "/wesleypraca/static/js/main.3ba6c8dc.chunk.js.map",
     "runtime-main.js": "/wesleypraca/static/js/runtime-main.5beb171f.js",
     "runtime-main.js.map": "/wesleypraca/static/js/runtime-main.5beb171f.js.map",
-    "static/js/2.1545c1ff.chunk.js": "/wesleypraca/static/js/2.1545c1ff.chunk.js",
-    "static/js/2.1545c1ff.chunk.js.map": "/wesleypraca/static/js/2.1545c1ff.chunk.js.map",
+    "static/js/2.b3c0c128.chunk.js": "/wesleypraca/static/js/2.b3c0c128.chunk.js",
+    "static/js/2.b3c0c128.chunk.js.map": "/wesleypraca/static/js/2.b3c0c128.chunk.js.map",
     "index.html": "/wesleypraca/index.html",
-    "precache-manifest.3b7620b068c8430c2c21f3040f66a977.js": "/wesleypraca/precache-manifest.3b7620b068c8430c2c21f3040f66a977.js",
+    "precache-manifest.3414a361a315ae5b70f1742038e6ab14.js": "/wesleypraca/precache-manifest.3414a361a315ae5b70f1742038e6ab14.js",
     "service-worker.js": "/wesleypraca/service-worker.js",
-    "static/css/main.506ad5d0.chunk.css.map": "/wesleypraca/static/css/main.506ad5d0.chunk.css.map",
-    "static/js/2.1545c1ff.chunk.js.LICENSE.txt": "/wesleypraca/static/js/2.1545c1ff.chunk.js.LICENSE.txt",
-    "static/media/manutencao.gif": "/wesleypraca/static/media/manutencao.24ecea62.gif"
+    "static/css/main.c4034eb7.chunk.css.map": "/wesleypraca/static/css/main.c4034eb7.chunk.css.map",
+    "static/js/2.b3c0c128.chunk.js.LICENSE.txt": "/wesleypraca/static/js/2.b3c0c128.chunk.js.LICENSE.txt",
+    "static/media/call.png": "/wesleypraca/static/media/call.44de7bb8.png",
+    "static/media/github.png": "/wesleypraca/static/media/github.d22ee372.png",
+    "static/media/mail.png": "/wesleypraca/static/media/mail.5f04d52b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5beb171f.js",
-    "static/js/2.1545c1ff.chunk.js",
-    "static/css/main.506ad5d0.chunk.css",
-    "static/js/main.090b218c.chunk.js"
+    "static/js/2.b3c0c128.chunk.js",
+    "static/css/main.c4034eb7.chunk.css",
+    "static/js/main.3ba6c8dc.chunk.js"
   ]
 }
