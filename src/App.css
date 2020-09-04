@@ -1,29 +1,205 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0px;
+}
+
+div.App {
+  display: flex;
+  background-color: #031a30;
+}
+
+div.content {
+  display: flex;
+  flex-direction: column;
+  width: 720px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: white;
+}
+
+div.content p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+div.content p.paragraph {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+div.content p.title {
+  margin-top: 40px;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+section.data {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+section.data a {
+  text-decoration: none;
+  color: black;
+}
+
+div.folder {
+  width: 220px;
+  height: 130px;
+  margin-top: 10px;
+}
+
+div.folder a {
+  text-decoration: none;
+}
+
+div.folder p.repo_name {
+  width: fit-content;
+  height: 10px;
+  padding: 4px;
+  margin-left: 6px;
+  font-size: 10px;
+  font-weight: normal;
+  color: black;
+  background-color: #cfcfcf;
+}
+
+div.detail {
+  width: 200px;
+  height: 84px;
+  border-radius: 8px;
+  background-color: #68686822;
+  padding: 10px;
+}
+
+div.languages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+div.languages i {
+  padding: 4px;
+  background-color: #cdcdcd;
+  margin: 4px;
+  border-radius: 35%;
+}
+
+div.presentation {
+  margin-top: 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+div.presentation p.paragraph {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+div.presentation p.text_label {
+  margin-bottom: 40px;
+}
+
+div.presentation p.thanks {
+  margin-top: 40px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div.contacts_medias {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div.contacts_medias a {
+  text-decoration: none;
+  color: black;
 }
 
-.App-header {
-  background-color: #ffffff;
-  min-height: 100vh;
+div.contact {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
 }
 
-.App-link {
-  color: #61dafb;
+div.contact img {
+  width: 68px;
+  height: 60px;
+}
+
+div.contact p.contact_detail {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+div.donwload_room {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.resume {
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+div.resume p.large {
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+div.resume p.medium {
+  font-weight: medium;
+  font-size: 12px;
+  text-align: center;
+}
+
+div.resume a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+div.resume a button.button_docx {
+  margin-top: 10px;
+  padding: 10px;
+  border-width: 4px;
+  border-radius: 6px;
+  width: 188px;
+  height: 38px;
+  background-color: white;
+  border-color: #00a4ef;
+}
+
+div.resume a button.button_pdf {
+  margin-top: 10px;
+  padding: 10px;
+  border-width: 4px;
+  border-radius: 6px;
+  width: 188px;
+  height: 38px;
+  background-color: white;
+  border-color: #ff0000;
+}
+
+p.availability {
+  width: 260px;
+}
+
+p.availability span {
+  color: greenyellow;
 }
