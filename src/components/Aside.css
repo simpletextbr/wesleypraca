@@ -118,7 +118,7 @@ aside:hover .repoRow--right {
 }
 
 @media (max-device-width: 600px){
-  aside:disabled:hover {
+  aside {
     display: flex;
     flex-direction: column;
     background-color: #ececec;
@@ -164,7 +164,7 @@ aside:hover .repoRow--right {
 }
 
 @media (max-width: 1100px){
-  aside:disabled:hover {
+  aside{
     display: flex;
     flex-direction: column;
     background-color: #ececec;

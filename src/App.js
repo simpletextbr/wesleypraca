@@ -34,7 +34,7 @@ export default function App() {
       console.log(window.self.innerWidth)
       if (window.scrollY > 1128 && window.self.innerWidth > 1500) {
         setFooter(false);
-      } else if(window.scrollY > 2428 && window.self.innerWidth < 1500) {
+      } else if(window.scrollY > 2428 && window.self.innerWidth < 1200) {
         setFooter(false);
       } else{
         setFooter(true)

@@ -9,7 +9,7 @@ export default function Header({scroll}){
 
     return (
         <header className={scroll ? 'scroll': ""}>
-            <a href="/">
+            <a href="/wesleypraca">
             <img src={logo} alt="logo do site" />
             </a>
             <nav>
