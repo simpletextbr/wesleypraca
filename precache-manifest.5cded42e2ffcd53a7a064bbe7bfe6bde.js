@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8904bf41a4ca6ce1fced15c0a735c55",
+    "revision": "ffdc5088d0cb2d0ebd77a070b1c5d99d",
     "url": "/wesleypraca/index.html"
   },
   {
-    "revision": "c42132dbd3f2df1424ed",
-    "url": "/wesleypraca/static/css/main.c4034eb7.chunk.css"
+    "revision": "eb69111a610dd2ab3885",
+    "url": "/wesleypraca/static/css/main.6aeb6e92.chunk.css"
   },
   {
-    "revision": "a2f2576cf8873c6c874a",
-    "url": "/wesleypraca/static/js/2.b3c0c128.chunk.js"
+    "revision": "898e179c8b9b69e0470b",
+    "url": "/wesleypraca/static/js/2.34425fbe.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/wesleypraca/static/js/2.b3c0c128.chunk.js.LICENSE.txt"
+    "url": "/wesleypraca/static/js/2.34425fbe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c42132dbd3f2df1424ed",
-    "url": "/wesleypraca/static/js/main.3ba6c8dc.chunk.js"
+    "revision": "eb69111a610dd2ab3885",
+    "url": "/wesleypraca/static/js/main.d7942c58.chunk.js"
   },
   {
     "revision": "f8e9b86501128e6d3121",
     "url": "/wesleypraca/static/js/runtime-main.5beb171f.js"
+  },
+  {
+    "revision": "b4c812fd02673f818f7f7a14f9614b8f",
+    "url": "/wesleypraca/static/media/LOGO.b4c812fd.svg"
   },
   {
     "revision": "44de7bb8df83432ee157fe89df508628",
