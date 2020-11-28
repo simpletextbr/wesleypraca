@@ -1,0 +1,210 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #ececec;
+  font-family: "Allerta Stencil", sans-serif;
+  max-width: 760px;
+}
+
+aside h1 {
+  margin: 40px 20px;
+  font-size: 36px;
+}
+
+aside a {
+  text-decoration: none;
+}
+
+aside a + a {
+  margin-left: 20px;
+}
+
+aside:hover .repoRow--left,
+aside:hover .repoRow--right {
+  transition: all ease 1s;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.repoRow--left,
+.repoRow--right {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  z-index: 99;
+  cursor: pointer;
+  opacity: 0;
+  transform: scale(0.6);
+  transition: all ease 1s;
+}
+
+.repoRow--left:hover,
+.repoRow--right:hover{
+  background-color: #999999;
+}
+
+.repoRow--left {
+  left: 0;
+}
+
+.repoRow--right {
+  margin-left: 860px;
+}
+
+.docs{
+  max-width: 760px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.docs--area {
+  display: inline-flex;
+  padding-right: 100px;
+  transition: all ease 1s
+}
+
+.doc {
+  display: inline-block;
+  max-width: 320px;
+  transform: scale(0.9);
+  transition: all ease 400ms;
+}
+
+.doc:hover {
+  transform: scale(1);
+}
+
+.reponame {
+  margin-left: 20px;
+  width: fit-content;
+  max-width: 246px;
+  background-color: #A9A9A9;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 2px;
+  color: #FFFFFF;
+}
+
+.repodetail {
+  width: 300px;
+  height: 140px;
+  background-color: #d9d9d9;
+  border-radius: 8px;
+  padding: 6px;
+  color: #000000;
+  max-width: 300px;
+  max-height: 140px;
+}
+
+.presentation {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.presentation p + p {
+  margin-top: 20px;
+}
+
+.end {
+  text-align: center;
+}
+
+@media (max-device-width: 600px){
+  aside:disabled:hover {
+    display: flex;
+    flex-direction: column;
+    background-color: #ececec;
+    font-family: "Allerta Stencil", sans-serif;
+    max-width: 760px;
+  }
+  
+  aside h1 {
+    margin: 40px 20px;
+    font-size: 36px;
+  }
+  
+  aside a {
+    text-decoration: none;
+  }
+  
+  aside a + a {
+    margin-left: 20px;
+  }
+
+  .repoRow--left,
+  .repoRow--right{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  z-index: 99;
+}
+
+.repoRow--left {
+  left: 0;
+  margin-left: 20px;
+}
+
+.repoRow--right {
+  margin-left: 860px;
+}
+}
+
+@media (max-width: 1100px){
+  aside:disabled:hover {
+    display: flex;
+    flex-direction: column;
+    background-color: #ececec;
+    font-family: "Allerta Stencil", sans-serif;
+    max-width: 760px;
+  }
+  
+  aside h1 {
+    margin: 40px 20px;
+    font-size: 36px;
+  }
+  
+  aside a {
+    text-decoration: none;
+  }
+  
+  aside a + a {
+    margin-left: 20px;
+  }
+
+  .repoRow--left,
+  .repoRow--right{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  z-index: 99;
+}
+
+.repoRow--left {
+  left: 0;
+  margin-left: 40px;
+}
+
+.repoRow--right {
+  margin-left: 860px;
+}
+}
