@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/wesleypraca/static/css/main.6aeb6e92.chunk.css",
-    "main.js": "/wesleypraca/static/js/main.d7942c58.chunk.js",
-    "main.js.map": "/wesleypraca/static/js/main.d7942c58.chunk.js.map",
+    "main.css": "/wesleypraca/static/css/main.14163a8d.chunk.css",
+    "main.js": "/wesleypraca/static/js/main.7118903d.chunk.js",
+    "main.js.map": "/wesleypraca/static/js/main.7118903d.chunk.js.map",
     "runtime-main.js": "/wesleypraca/static/js/runtime-main.5beb171f.js",
     "runtime-main.js.map": "/wesleypraca/static/js/runtime-main.5beb171f.js.map",
     "static/js/2.34425fbe.chunk.js": "/wesleypraca/static/js/2.34425fbe.chunk.js",
     "static/js/2.34425fbe.chunk.js.map": "/wesleypraca/static/js/2.34425fbe.chunk.js.map",
     "index.html": "/wesleypraca/index.html",
-    "precache-manifest.5cded42e2ffcd53a7a064bbe7bfe6bde.js": "/wesleypraca/precache-manifest.5cded42e2ffcd53a7a064bbe7bfe6bde.js",
+    "precache-manifest.44b05eeac72e4e5ee62515c7010b129f.js": "/wesleypraca/precache-manifest.44b05eeac72e4e5ee62515c7010b129f.js",
     "service-worker.js": "/wesleypraca/service-worker.js",
-    "static/css/main.6aeb6e92.chunk.css.map": "/wesleypraca/static/css/main.6aeb6e92.chunk.css.map",
+    "static/css/main.14163a8d.chunk.css.map": "/wesleypraca/static/css/main.14163a8d.chunk.css.map",
     "static/js/2.34425fbe.chunk.js.LICENSE.txt": "/wesleypraca/static/js/2.34425fbe.chunk.js.LICENSE.txt",
     "static/media/LOGO.svg": "/wesleypraca/static/media/LOGO.b4c812fd.svg",
     "static/media/call.png": "/wesleypraca/static/media/call.44de7bb8.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.5beb171f.js",
     "static/js/2.34425fbe.chunk.js",
-    "static/css/main.6aeb6e92.chunk.css",
-    "static/js/main.d7942c58.chunk.js"
+    "static/css/main.14163a8d.chunk.css",
+    "static/js/main.7118903d.chunk.js"
   ]
 }
