@@ -15,7 +15,7 @@ export default function Card() {
   ];
 
   return (
-    <div className="card">
+    <div className="card" name="aboutme">
       <div className="photo">
         <img
           src="https://avatars1.githubusercontent.com/u/59588123?s=400&u=7d48db9f02a42e6766aaaaad8af4d233021c1a79&v=4"

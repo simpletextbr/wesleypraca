@@ -1,10 +1,23 @@
 import React from 'react';
+import { Link, animateScroll } from 'react-scroll'
 
 import './Header.css'
 
 import logo from '../assets/LOGO.svg'
 
 export default function Header({scroll}){
+
+  function handleHome(){
+    animateScroll.scrollTo(0)
+  }
+
+  function handleAboutMe(){
+    animateScroll.scrollTo(140)
+  }
+
+  function hanleTechs(){
+    animateScroll.scrollTo(1000)
+  }
    
 
     return (
@@ -13,15 +26,39 @@ export default function Header({scroll}){
             <img src={logo} alt="logo do site" />
             </a>
             <nav>
-                <a href="#home">
-                <p>HOME</p>
-                </a>
-                <a href="#aboutme">
-                <p>ABOUT ME</p>
-                </a>
-                <a href="#techs">
-                <p>TECHS</p>
-                </a>
+                <Link
+                  activeClass="active"
+                  to="#home"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  onClick={handleHome}
+                >
+                HOME
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="#home"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  onClick={handleAboutMe}
+                >
+                ABOUT ME
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="#home"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  onClick={hanleTechs}
+                >
+                TECHS
+                </Link>
             </nav>
         </header>
     );

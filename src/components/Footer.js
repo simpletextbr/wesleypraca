@@ -66,7 +66,7 @@ export default function Footer({ scroll }) {
         ))}
       </div>
       <div className="resume">
-        <h3>Download Resume</h3>
+        <p className="resumeTitle">Download Resume</p>
         <h6>Baixar Curriculo</h6>
         <div className="downloads">
           <div className="pdf">

@@ -14,7 +14,8 @@
     "react-dom": "^16.13.1",
     "react-horizontal-scrolling-menu": "^0.7.7",
     "react-icons": "^3.11.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "react-scroll": "^1.8.1"
   },
   "scripts": {
     "deploy": "./node_modules/.bin/gh-pages -d build",

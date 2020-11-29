@@ -3,7 +3,7 @@ aside {
   flex-direction: column;
   background-color: #ececec;
   font-family: "Allerta Stencil", sans-serif;
-  max-width: 760px;
+  max-width: 600px;
 }
 
 aside h1 {
@@ -54,7 +54,7 @@ aside:hover .repoRow--right {
 }
 
 .repoRow--right {
-  margin-left: 860px;
+  margin-left: 650px;
 }
 
 .docs{

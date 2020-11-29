@@ -10,8 +10,8 @@ export default function Aside() {
 
   function handleLeftArrow() {
     let x = scrollX + Math.round(window.innerWidth / 2);
-    if(x > 2540){
-      x = 2540
+    if(x > 3000){
+      x = 3000
     }
     setScrollX(x)
   }
@@ -20,7 +20,7 @@ export default function Aside() {
     let x = scrollX - Math.round(window.innerWidth / 2);
     let docsW = repos.length * 320 ;
     if((window.innerWidth - docsW) > x){
-      x = (window.innerWidth - docsW) - 1260
+      x = (window.innerWidth - docsW) - 860
     }
     setScrollX(x)
   }
@@ -36,7 +36,7 @@ export default function Aside() {
   }, []);
 
   return (
-    <aside id="#home">
+    <aside name="home">
       <h1>MY REPOS</h1>
       <div
         className="docs"

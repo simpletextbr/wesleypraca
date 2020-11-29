@@ -34,7 +34,7 @@ export default function App() {
       console.log(window.self.innerWidth)
       if (window.scrollY > 1128 && window.self.innerWidth > 1500) {
         setFooter(false);
-      } else if(window.scrollY > 2428 && window.self.innerWidth < 1200) {
+      } else if(window.scrollY > 1628 && window.self.innerWidth < 1500) {
         setFooter(false);
       } else{
         setFooter(true)
@@ -47,17 +47,17 @@ export default function App() {
       window.removeEventListener("scroll", scrollListener);
     };
   }, []);
-
+  
   return (
     <div className="App">
-      <Header scroll={scrolled} id="#home" />
+      <a name="home" href><Header scroll={scrolled} /></a>
       <main>
         <div className="aboutme">
-          <Aside />
+          <a name="aboutme" href><Aside /></a>
           <Card />
         </div>
-        <div className="techs" id="#techs">
-          <Techs />
+        <div className="techs" >
+          <a name="techs" href><Techs /></a>
         </div>
       </main>
       <footer>

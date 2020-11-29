@@ -22,7 +22,7 @@ export default function Techs(){
    
 
     return(
-        <div id="#techs" className="aboutTechs">
+        <div name="techs" className="aboutTechs">
             <h1>TECHNOLOGIES</h1>
             <div className="list-techs">
                 {Icons.map(icon => (
