@@ -31,10 +31,12 @@ export default function App() {
 
   useEffect(() => {
     const scrollListener = () => {
-      console.log(window.self.innerWidth)
-      if (window.scrollY > 1128 && window.self.innerWidth > 1500) {
+      console.log(window.scrollY)
+      if(window.scrollY > 1760 && window.innerWidth > 1200){
+        setFooter(false)
+      } else if(window.scrollY > 3800 && window.innerWidth > 700 && window.innerWidth < 1200) {
         setFooter(false);
-      } else if(window.scrollY > 1628 && window.self.innerWidth < 1500) {
+      } else if(window.scrollY > 6200&& window.innerWidth < 700) {
         setFooter(false);
       } else{
         setFooter(true)
@@ -50,16 +52,14 @@ export default function App() {
   
   return (
     <div className="App">
-      <a name="home" href><Header scroll={scrolled} /></a>
-      <main>
-        <div className="aboutme">
-          <a name="aboutme" href><Aside /></a>
+      <Header scroll={scrolled} />
+        <div className="main">
+          <Aside />
           <Card />
         </div>
         <div className="techs" >
-          <a name="techs" href><Techs /></a>
+          <Techs />
         </div>
-      </main>
       <footer>
         <Footer scroll={footer}/>
       </footer>

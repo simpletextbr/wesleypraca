@@ -76,7 +76,22 @@
   margin-right: 6px;
 }
 
-@media (max-device-width: 600px){
+@media (max-width: 700px){
+  .aboutTechs {
+    margin-top: 140px;
+    margin-bottom: 420px;
+  }
+
+  .list-techs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1050px){
   .aboutTechs {
     margin-top: 140px;
     margin-bottom: 420px;
@@ -85,11 +100,12 @@
   .list-techs {
     margin: 60px 20px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 1020px){
+
+@media (min-width: 1050px) and (max-width: 1200px){
   .aboutTechs {
     margin-top: 140px;
     margin-bottom: 420px;

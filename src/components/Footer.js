@@ -27,7 +27,7 @@ export default function Footer({ scroll }) {
       id: 3,
       name: "E-mail",
       picture: mail,
-      link: "maito:wesley.praca@outlook.com.br",
+      link: "mailto:wesley.praca@outlook.com.br",
     },
     {
       id: 4,
@@ -49,8 +49,8 @@ export default function Footer({ scroll }) {
           <span> WESLEY PRAÇA</span>
         </a>
       </p>
-      <a href="/">
-        <img src={logo} alt="logo do site" />
+      <a href="/wesleypraca">
+        <img className="logoDefault" src={logo} alt="logo do site" />
       </a>
     </footer>
   ) : (
@@ -90,13 +90,11 @@ export default function Footer({ scroll }) {
         </div>
       </div>
       <div className="Work">
-        <h4>
-          <span>OPEN</span> to Belo Horizonte
-        </h4>
-        <h4>and Metropolitan area jobs.</h4>
+        <span>OPEN</span>
+        <p>to Belo Horizonte and Metropolitan area jobs.</p>
       </div>
       <div className="logo">
-        <img src={logo} alt="logo do site" />
+        <img className="logoScroll" src={logo} alt="logo do site" />
       </div>
     </footer>
   );

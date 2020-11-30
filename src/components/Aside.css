@@ -45,7 +45,7 @@ aside:hover .repoRow--right {
 }
 
 .repoRow--left:hover,
-.repoRow--right:hover{
+.repoRow--right:hover {
   background-color: #999999;
 }
 
@@ -57,7 +57,7 @@ aside:hover .repoRow--right {
   margin-left: 650px;
 }
 
-.docs{
+.docs {
   max-width: 760px;
   overflow: hidden;
   display: flex;
@@ -68,7 +68,7 @@ aside:hover .repoRow--right {
 .docs--area {
   display: inline-flex;
   padding-right: 100px;
-  transition: all ease 1s
+  transition: all ease 1s;
 }
 
 .doc {
@@ -86,11 +86,11 @@ aside:hover .repoRow--right {
   margin-left: 20px;
   width: fit-content;
   max-width: 246px;
-  background-color: #A9A9A9;
+  background-color: #a9a9a9;
   padding: 10px;
   font-size: 12px;
   border-radius: 2px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .repodetail {
@@ -117,94 +117,131 @@ aside:hover .repoRow--right {
   text-align: center;
 }
 
-@media (max-device-width: 600px){
+@media (max-width: 700px){
   aside {
     display: flex;
     flex-direction: column;
     background-color: #ececec;
     font-family: "Allerta Stencil", sans-serif;
-    max-width: 760px;
+    max-width: 360px;
   }
-  
+
   aside h1 {
     margin: 40px 20px;
     font-size: 36px;
   }
-  
+
   aside a {
     text-decoration: none;
   }
-  
+
   aside a + a {
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .repoRow--left,
-  .repoRow--right{
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #d9d9d9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid black;
-  z-index: 99;
+  .repoRow--right {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    z-index: 99;
+  }
+
+  .repoRow--left {
+    left: 0;
+  }
+
+  .repoRow--right {
+    right: 0;
+  }
+
+  .docs {
+    max-width: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .docs--area {
+    display: inline-flex;
+    padding-left: 400px;
+  }
+
+  .doc {
+    display: inline-block;
+    max-width: 360px;
+  }
 }
 
-.repoRow--left {
-  left: 0;
-  margin-left: 20px;
-}
-
-.repoRow--right {
-  margin-left: 860px;
-}
-}
-
-@media (max-width: 1100px){
-  aside{
+@media (min-width: 700px){
+  aside {
     display: flex;
     flex-direction: column;
     background-color: #ececec;
     font-family: "Allerta Stencil", sans-serif;
-    max-width: 760px;
+    max-width: 600px;
   }
-  
+
   aside h1 {
     margin: 40px 20px;
     font-size: 36px;
   }
-  
+
   aside a {
     text-decoration: none;
   }
-  
+
   aside a + a {
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .repoRow--left,
-  .repoRow--right{
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #d9d9d9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid black;
-  z-index: 99;
+  .repoRow--right {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    z-index: 99;
+  }
+
+  .repoRow--left {
+    left: 0;
+    margin-left: 10px;
+  }
+
+  .repoRow--right {
+    margin-left: 660px;
+  }
+
+  .docs {
+    max-width: 600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .docs--area {
+    display: inline-flex;
+  }
+
+  .doc {
+    display: inline-block;
+    max-width: 300px;
+  }
 }
 
-.repoRow--left {
-  left: 0;
-  margin-left: 40px;
-}
 
-.repoRow--right {
-  margin-left: 860px;
-}
-}

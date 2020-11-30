@@ -16,7 +16,11 @@ export default function Header({scroll}){
   }
 
   function hanleTechs(){
-    animateScroll.scrollTo(1000)
+    if(window.innerWidth > 700){
+      animateScroll.scrollTo(1000)
+    } else {
+      animateScroll.scrollTo(2000)
+    }
   }
    
 
