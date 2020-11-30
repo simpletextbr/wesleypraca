@@ -12,12 +12,14 @@ export default function Header({scroll}){
   }
 
   function handleAboutMe(){
-    animateScroll.scrollTo(140)
+      animateScroll.scrollTo(140)
   }
 
   function hanleTechs(){
-    if(window.innerWidth > 700){
-      animateScroll.scrollTo(1000)
+    if(window.innerWidth > 1200){
+    animateScroll.scrollTo(1000)
+    }else if(window.innerWidth > 700 && window.innerWidth < 1200){
+      animateScroll.scrollTo(1560)
     } else {
       animateScroll.scrollTo(2000)
     }

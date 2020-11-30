@@ -31,7 +31,6 @@ export default function App() {
 
   useEffect(() => {
     const scrollListener = () => {
-      console.log(window.scrollY)
       if(window.scrollY > 1760 && window.innerWidth > 1200){
         setFooter(false)
       } else if(window.scrollY > 3800 && window.innerWidth > 700 && window.innerWidth < 1200) {
