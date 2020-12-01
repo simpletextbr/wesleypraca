@@ -35,7 +35,7 @@ export default function App() {
         setFooter(false)
       } else if(window.scrollY > 3800 && window.innerWidth > 700 && window.innerWidth < 1200) {
         setFooter(false);
-      } else if(window.scrollY > 6200&& window.innerWidth < 700) {
+      } else if(window.scrollY > 5200&& window.innerWidth < 700) {
         setFooter(false);
       } else{
         setFooter(true)
