@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wesleypraca/static/css/main.aedf9ae1.chunk.css",
-    "main.js": "/wesleypraca/static/js/main.21c85685.chunk.js",
-    "main.js.map": "/wesleypraca/static/js/main.21c85685.chunk.js.map",
+    "main.js": "/wesleypraca/static/js/main.5b0c5295.chunk.js",
+    "main.js.map": "/wesleypraca/static/js/main.5b0c5295.chunk.js.map",
     "runtime-main.js": "/wesleypraca/static/js/runtime-main.5beb171f.js",
     "runtime-main.js.map": "/wesleypraca/static/js/runtime-main.5beb171f.js.map",
     "static/js/2.27119bbe.chunk.js": "/wesleypraca/static/js/2.27119bbe.chunk.js",
     "static/js/2.27119bbe.chunk.js.map": "/wesleypraca/static/js/2.27119bbe.chunk.js.map",
     "index.html": "/wesleypraca/index.html",
-    "precache-manifest.acdf4112bcb866fd424b2ed6fae2d50c.js": "/wesleypraca/precache-manifest.acdf4112bcb866fd424b2ed6fae2d50c.js",
+    "precache-manifest.f9df7e56b098b1e8487868d9cbb47906.js": "/wesleypraca/precache-manifest.f9df7e56b098b1e8487868d9cbb47906.js",
     "service-worker.js": "/wesleypraca/service-worker.js",
     "static/css/main.aedf9ae1.chunk.css.map": "/wesleypraca/static/css/main.aedf9ae1.chunk.css.map",
     "static/js/2.27119bbe.chunk.js.LICENSE.txt": "/wesleypraca/static/js/2.27119bbe.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.5beb171f.js",
     "static/js/2.27119bbe.chunk.js",
     "static/css/main.aedf9ae1.chunk.css",
-    "static/js/main.21c85685.chunk.js"
+    "static/js/main.5b0c5295.chunk.js"
   ]
 }
