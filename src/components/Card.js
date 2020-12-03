@@ -4,13 +4,13 @@ import "./Card.css";
 
 export default function Card() {
   const skils = [
-    { id: 1, name: "Comunicação", value: 48 },
+    { id: 1, name: "Comunicação", value: 64 },
     { id: 2, name: "Aprendizagem", value: 70 },
     { id: 3, name: "Prestativo", value: 80 },
     { id: 4, name: "Desafios", value: 86 },
     { id: 5, name: "Liderança", value: 62 },
-    { id: 6, name: "Extrovertido", value: 20 },
-    { id: 7, name: "Prazos", value: 74 },
+    { id: 6, name: "Determinado", value: 52 },
+    { id: 7, name: "Organização", value: 74 },
     { id: 8, name: "Inglês", value: 50 },
   ];
 
