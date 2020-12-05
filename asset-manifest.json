@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wesleypraca/static/css/main.a918d15f.chunk.css",
+    "main.css": "/wesleypraca/static/css/main.04835063.chunk.css",
     "main.js": "/wesleypraca/static/js/main.148c8595.chunk.js",
     "main.js.map": "/wesleypraca/static/js/main.148c8595.chunk.js.map",
     "runtime-main.js": "/wesleypraca/static/js/runtime-main.5beb171f.js",
@@ -8,9 +8,9 @@
     "static/js/2.27119bbe.chunk.js": "/wesleypraca/static/js/2.27119bbe.chunk.js",
     "static/js/2.27119bbe.chunk.js.map": "/wesleypraca/static/js/2.27119bbe.chunk.js.map",
     "index.html": "/wesleypraca/index.html",
-    "precache-manifest.84ee2e7ad4dde6c506412f1aeea92fa1.js": "/wesleypraca/precache-manifest.84ee2e7ad4dde6c506412f1aeea92fa1.js",
+    "precache-manifest.2770366cc46d8ab480550d779d4b250d.js": "/wesleypraca/precache-manifest.2770366cc46d8ab480550d779d4b250d.js",
     "service-worker.js": "/wesleypraca/service-worker.js",
-    "static/css/main.a918d15f.chunk.css.map": "/wesleypraca/static/css/main.a918d15f.chunk.css.map",
+    "static/css/main.04835063.chunk.css.map": "/wesleypraca/static/css/main.04835063.chunk.css.map",
     "static/js/2.27119bbe.chunk.js.LICENSE.txt": "/wesleypraca/static/js/2.27119bbe.chunk.js.LICENSE.txt",
     "static/media/LOGO.svg": "/wesleypraca/static/media/LOGO.b4c812fd.svg",
     "static/media/call.png": "/wesleypraca/static/media/call.44de7bb8.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.5beb171f.js",
     "static/js/2.27119bbe.chunk.js",
-    "static/css/main.a918d15f.chunk.css",
+    "static/css/main.04835063.chunk.css",
     "static/js/main.148c8595.chunk.js"
   ]
 }

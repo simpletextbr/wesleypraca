@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b81e6c58db6e10ab2440ea057b71774",
+    "revision": "aece90ae716c518454ed6f7ff382f9be",
     "url": "/wesleypraca/index.html"
   },
   {
-    "revision": "cc85b94d74e78a43207b",
-    "url": "/wesleypraca/static/css/main.a918d15f.chunk.css"
+    "revision": "272fcd36b9bfb892d761",
+    "url": "/wesleypraca/static/css/main.04835063.chunk.css"
   },
   {
     "revision": "65097f3467d767474f2e",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wesleypraca/static/js/2.27119bbe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc85b94d74e78a43207b",
+    "revision": "272fcd36b9bfb892d761",
     "url": "/wesleypraca/static/js/main.148c8595.chunk.js"
   },
   {
