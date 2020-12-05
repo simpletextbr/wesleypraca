@@ -33,6 +33,10 @@ nav a {
   cursor: pointer;
 }
 
+nav a:hover{
+  border-bottom: 1px solid #666;
+}
+
 .active {
   border-bottom: 2px solid #333;
 }
