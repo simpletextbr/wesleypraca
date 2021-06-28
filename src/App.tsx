@@ -1,10 +1,10 @@
 import React from 'react';
 import Lottie from 'react-lottie'
 import animationData from './assets/Lottie/66205-coding.json'
-
 import './App.css';
 
 function App() {
+
   const defaultOptions = {
     loop: true,
     autoplay: true, 
