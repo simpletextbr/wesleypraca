@@ -1,26 +1,22 @@
 {
   "files": {
-    "main.css": "/wesleypraca/static/css/main.04835063.chunk.css",
-    "main.js": "/wesleypraca/static/js/main.148c8595.chunk.js",
-    "main.js.map": "/wesleypraca/static/js/main.148c8595.chunk.js.map",
-    "runtime-main.js": "/wesleypraca/static/js/runtime-main.5beb171f.js",
-    "runtime-main.js.map": "/wesleypraca/static/js/runtime-main.5beb171f.js.map",
-    "static/js/2.27119bbe.chunk.js": "/wesleypraca/static/js/2.27119bbe.chunk.js",
-    "static/js/2.27119bbe.chunk.js.map": "/wesleypraca/static/js/2.27119bbe.chunk.js.map",
-    "index.html": "/wesleypraca/index.html",
-    "precache-manifest.2770366cc46d8ab480550d779d4b250d.js": "/wesleypraca/precache-manifest.2770366cc46d8ab480550d779d4b250d.js",
-    "service-worker.js": "/wesleypraca/service-worker.js",
-    "static/css/main.04835063.chunk.css.map": "/wesleypraca/static/css/main.04835063.chunk.css.map",
-    "static/js/2.27119bbe.chunk.js.LICENSE.txt": "/wesleypraca/static/js/2.27119bbe.chunk.js.LICENSE.txt",
-    "static/media/LOGO.svg": "/wesleypraca/static/media/LOGO.b4c812fd.svg",
-    "static/media/call.png": "/wesleypraca/static/media/call.44de7bb8.png",
-    "static/media/github.png": "/wesleypraca/static/media/github.d22ee372.png",
-    "static/media/mail.png": "/wesleypraca/static/media/mail.5f04d52b.png"
+    "main.css": "/static/css/main.fd8e61cf.chunk.css",
+    "main.js": "/static/js/main.3375f2f0.chunk.js",
+    "main.js.map": "/static/js/main.3375f2f0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3cfbfab4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3cfbfab4.js.map",
+    "static/js/2.7b07cea7.chunk.js": "/static/js/2.7b07cea7.chunk.js",
+    "static/js/2.7b07cea7.chunk.js.map": "/static/js/2.7b07cea7.chunk.js.map",
+    "static/js/3.4197fe1c.chunk.js": "/static/js/3.4197fe1c.chunk.js",
+    "static/js/3.4197fe1c.chunk.js.map": "/static/js/3.4197fe1c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fd8e61cf.chunk.css.map": "/static/css/main.fd8e61cf.chunk.css.map",
+    "static/js/2.7b07cea7.chunk.js.LICENSE.txt": "/static/js/2.7b07cea7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5beb171f.js",
-    "static/js/2.27119bbe.chunk.js",
-    "static/css/main.04835063.chunk.css",
-    "static/js/main.148c8595.chunk.js"
+    "static/js/runtime-main.3cfbfab4.js",
+    "static/js/2.7b07cea7.chunk.js",
+    "static/css/main.fd8e61cf.chunk.css",
+    "static/js/main.3375f2f0.chunk.js"
   ]
 }
