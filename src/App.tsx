@@ -1,32 +1,17 @@
 import React from 'react';
-import Lottie from 'react-lottie'
-import animationData from './assets/Lottie/66205-coding.json'
+import GlobalStyles from './styles/globalStyles'
 import './App.css';
 
-function App() {
+import Routes from './routes'
 
-  const defaultOptions = {
-    loop: true,
-    autoplay: true, 
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice'
-    }
-  };
+function App():JSX.Element {
 
   return (
-    <div className="App">
-      <div className="main">
-      <Lottie 
-        options={defaultOptions}
-        height={500}
-        width={500}
-        />
-        <h2>Sorry, we are under maintenance!</h2>
-        <p>if you need contact me on <a href="mailto:wesley.praca@outlook.com.br" className="link">wesley.praca@outlook.com.br</a></p>
-        </div>
-    </div>
+    <React.Fragment>
+      <GlobalStyles />
+      <Routes />
+    </React.Fragment>
   );
 }
 
-export default App;
+export default App

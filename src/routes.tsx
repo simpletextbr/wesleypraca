@@ -1,0 +1,18 @@
+import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+import Home from './pages/pageHome'
+import About from './pages/pageAbout'
+
+function Routes():JSX.Element{
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route path="/wesleypraca/" exact component={Home} />
+        <Route path="/wesleypraca/about" component={About} />
+      </Switch>
+    </BrowserRouter>
+  )
+}
+
+export default Routes;
