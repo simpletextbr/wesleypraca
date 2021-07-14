@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
 import * as S from './style'
-import { FiSend, FiX, FiEye } from 'react-icons/fi'
+import { FiSend, FiX } from 'react-icons/fi'
 import Whatsapp from '../../assets/whatsapp.png'
 import { Header, TitlePages } from '../../components'
 import contacts from '../../database/contacts'
-import { ObjectTypeDeclaration } from 'typescript';
 
 interface IContacts {
   name: string;
@@ -32,14 +31,11 @@ function pageContact():JSX.Element{
 
   function sendWhatsAppMessage(event:React.FormEvent<HTMLFormElement>){
     event.preventDefault()
-    const text = `Olá Wesley meu nome é ${name} e sou da empresa ${enterpriseName}.
-    Estou entrando em contato pois ${subject === "Vaga" || subject === "Sugestão" ? `possuo uma ${subject} para você!` : `Quero ${subject} com você!` }
-    ${subject !== "Trocar uma ideia" ?
-    `Segue descrição:
-      ${message}` : "Abraços!"
-    }
-    `
-    window.open(`https://api.whatsapp.com/send?phone=+5531982480793&text=${text}`, "_blank")
+    const presentation = `Olá Wesley meu nome é ${name} e sou da empresa ${enterpriseName}.`
+    const body = `Estou entrando em contato pois ${subject !== "Trocar uma ideia" ? `possuo uma ${subject} para você!` : `quero ${subject} com você!` }`
+    const end = `${subject !== "Trocar uma ideia" ? `Segue descrição: ${message}` : "Abraços!" }`
+
+    window.open(`https://api.whatsapp.com/send?phone=+5531982480793&text=${presentation}${body}${end}`, "_blank")
     clearFields()
     setSendMessage(false)
   }

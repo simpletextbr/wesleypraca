@@ -465,10 +465,10 @@ export const form = styled.form`
     height: 100px;
     padding-left: 10px;
     resize: none;
+    color: #FFFFFF;
 
     :first-line{
       color: #FFFFFF;
-
     }
   }
 `

@@ -2,53 +2,108 @@ import styled from 'styled-components'
 
 
 export const title = styled.div `
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-margin-top: 60px;
-max-width: 100vw;
-font-weight: 200;
-font-size: 60px;
 
-div + p{
-  margin-top: 10px;
-}
-
-
-.link{
+@media screen and (max-width:700px){
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-weight: 600;
+  margin-top: 60px;
+  max-width: 100vw;
+  font-weight: 200;
+  font-size: 30px;
 
-
-  svg{
-    color: #727272;
-    padding-top: 4px;
-    transition: all ease 400ms;
+  div + p{
+    margin-top: 10px;
   }
 
-  .home{
-    cursor: pointer;
-    transition: all ease 400ms;
-    color:#000000;
 
-    :hover{
+  .link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+
+
+    svg{
+      color: #727272;
+      padding-top: 4px;
+      transition: all ease 400ms;
+    }
+
+    .home{
       cursor: pointer;
-      color: #1787ee;
+      transition: all ease 400ms;
+      color:#000000;
 
-        svg{
+      :hover{
+        cursor: pointer;
         color: #1787ee;
-        transform: rotate(-180deg) translateY(-4px);
+
+          svg{
+          color: #1787ee;
+          transform: rotate(-180deg) translateY(-4px);
+          }
         }
-      }
+    }
+
+    p{
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (min-width:700px){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  max-width: 100vw;
+  font-weight: 200;
+  font-size: 60px;
+
+  div + p{
+    margin-top: 10px;
   }
 
-  p{
-    font-size: 16px;
+
+  .link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+
+
+    svg{
+      color: #727272;
+      padding-top: 4px;
+      transition: all ease 400ms;
+    }
+
+    .home{
+      cursor: pointer;
+      transition: all ease 400ms;
+      color:#000000;
+
+      :hover{
+        cursor: pointer;
+        color: #1787ee;
+
+          svg{
+          color: #1787ee;
+          transform: rotate(-180deg) translateY(-4px);
+          }
+        }
+    }
+
+    p{
+      font-size: 16px;
+    }
   }
 
 }
+
 `
