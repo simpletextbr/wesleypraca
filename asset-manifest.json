@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/wesleypraca/static/css/main.fd8e61cf.chunk.css",
-    "main.js": "/wesleypraca/static/js/main.3375f2f0.chunk.js",
-    "main.js.map": "/wesleypraca/static/js/main.3375f2f0.chunk.js.map",
-    "runtime-main.js": "/wesleypraca/static/js/runtime-main.eadc035c.js",
-    "runtime-main.js.map": "/wesleypraca/static/js/runtime-main.eadc035c.js.map",
-    "static/js/2.7b07cea7.chunk.js": "/wesleypraca/static/js/2.7b07cea7.chunk.js",
-    "static/js/2.7b07cea7.chunk.js.map": "/wesleypraca/static/js/2.7b07cea7.chunk.js.map",
-    "static/js/3.4197fe1c.chunk.js": "/wesleypraca/static/js/3.4197fe1c.chunk.js",
-    "static/js/3.4197fe1c.chunk.js.map": "/wesleypraca/static/js/3.4197fe1c.chunk.js.map",
+    "main.css": "/wesleypraca/static/css/main.bc0ae965.chunk.css",
+    "main.js": "/wesleypraca/static/js/main.ef49d2c7.chunk.js",
+    "main.js.map": "/wesleypraca/static/js/main.ef49d2c7.chunk.js.map",
+    "runtime-main.js": "/wesleypraca/static/js/runtime-main.731b7069.js",
+    "runtime-main.js.map": "/wesleypraca/static/js/runtime-main.731b7069.js.map",
+    "static/js/2.d01cf440.chunk.js": "/wesleypraca/static/js/2.d01cf440.chunk.js",
+    "static/js/2.d01cf440.chunk.js.map": "/wesleypraca/static/js/2.d01cf440.chunk.js.map",
     "index.html": "/wesleypraca/index.html",
-    "static/css/main.fd8e61cf.chunk.css.map": "/wesleypraca/static/css/main.fd8e61cf.chunk.css.map",
-    "static/js/2.7b07cea7.chunk.js.LICENSE.txt": "/wesleypraca/static/js/2.7b07cea7.chunk.js.LICENSE.txt"
+    "static/css/main.bc0ae965.chunk.css.map": "/wesleypraca/static/css/main.bc0ae965.chunk.css.map",
+    "static/js/2.d01cf440.chunk.js.LICENSE.txt": "/wesleypraca/static/js/2.d01cf440.chunk.js.LICENSE.txt",
+    "static/media/LOGO.b59c947e.svg": "/wesleypraca/static/media/LOGO.b59c947e.svg",
+    "static/media/ProfilePic.235013e5.jpg": "/wesleypraca/static/media/ProfilePic.235013e5.jpg",
+    "static/media/instagram.327b66ae.png": "/wesleypraca/static/media/instagram.327b66ae.png",
+    "static/media/mail.263d2e7c.png": "/wesleypraca/static/media/mail.263d2e7c.png",
+    "static/media/whatsapp.d8e3db17.png": "/wesleypraca/static/media/whatsapp.d8e3db17.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.eadc035c.js",
-    "static/js/2.7b07cea7.chunk.js",
-    "static/css/main.fd8e61cf.chunk.css",
-    "static/js/main.3375f2f0.chunk.js"
+    "static/js/runtime-main.731b7069.js",
+    "static/js/2.d01cf440.chunk.js",
+    "static/css/main.bc0ae965.chunk.css",
+    "static/js/main.ef49d2c7.chunk.js"
   ]
 }
