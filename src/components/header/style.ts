@@ -14,27 +14,11 @@ export const header = styled.div`
   margin-right: 40px;
   margin-left: 20px;
   transition: all ease 400ms;
-  position: relative;
-  ${({ scroll }:IShow) => scroll > 10 &&
-    css`
-      div{
-      position:fixed;
-      background-color: #FF0000;
-
-        img{
-          transform: scale(0.5)
-        }
-
-        svg{
-        margin-left: auto;
-        cursor: pointer;
-        }
-      }
-    `}
 
   img{
     transition: all ease 400ms;
     transform: scale(1);
+    cursor: pointer;
   }
 
 

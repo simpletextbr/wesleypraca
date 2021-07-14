@@ -2,18 +2,27 @@ import React, { useState, useEffect } from 'react'
 
 import * as S from './style';
 import profilePic from '../../assets/ProfilePic.jpg'
-import { FiFileText } from 'react-icons/fi'
+import { FiFileText, FiEye } from 'react-icons/fi'
 import { Header, TitlePages } from '../../components/index'
 
 import data from '../../database/myData'
 import skills from '../../database/skills'
 import softSkills from '../../database/softSkills'
+import api from '../../services/api';
+
+
+interface IRp {
+  id: number;
+  full_name: string;
+  name: string;
+  description?: string;
+}
 
 function About():JSX.Element{
-  const [scroll, setScroll] = useState(Number)
-  const [loadEnd, setLoadEnd] = useState(false)
-
-  console.log(scroll)
+  const [ scroll, setScroll ] = useState(Number)
+  const [ loadEnd, setLoadEnd ] = useState(false)
+  const [ repos , setRepos ] = useState([])
+  const [ showDetails, setShowDetails] = useState(false)
 
   useEffect(() => {
     window.onscroll = () => {
@@ -23,6 +32,13 @@ function About():JSX.Element{
     if(loadEnd === false) {
       setInterval(() => {setLoadEnd(true)}, 1600)
     }
+
+    async function loadRepos(){
+      const response  = await  api.get("/users/simpletextbr/repos")
+      setRepos(response.data)
+    }
+
+    loadRepos()
   }, []);
 
   return (
@@ -41,12 +57,13 @@ function About():JSX.Element{
           </S.text>
           <S.address>
              <S.image  image={profilePic} load={loadEnd}/>
+             <S.mobileTitle>Personal Data</S.mobileTitle>
              <div className="datagroup">
                 {data.map((dt, index) => (
-                  <div className="data" key={index}>
-                    <p>{dt.type}:</p>
+                  <S.card key={index} type={dt.type}>
+                    <p className="nameData">{dt.type}:</p>
                     <p className="detail">{dt.name}</p>
-                  </div>
+                  </S.card>
                 ))}
               </div>
           </S.address>
@@ -70,7 +87,7 @@ function About():JSX.Element{
           ))}
           </div>
           <p className="title2nd">Soft Skills</p>
-            <div className="skillgroup">
+            <div className="skillgroup2nd">
             { softSkills.map((sk, index) => (
               <S.skill key={index}>
               <p>{sk.name}</p>
@@ -81,6 +98,26 @@ function About():JSX.Element{
           ))}
           </div>
         </S.skills>
+        <S.repos scroll={scroll} details={showDetails}>
+          <S.titleRepos scroll={scroll}>REPOS</S.titleRepos>
+          <p className="title">GITHUB REPOSITORIES</p>
+          <p className="show" onClick={() => setShowDetails(showDetails === true ? false : true)}>SHOW DETAILS <FiEye size={16}/></p>
+          <div className="repositories">
+            { repos.map((rp:IRp) => (
+              <a href={`https://github.com/${rp.full_name}`} target="_blank" rel="noopener noreferrer" key={rp.id}>
+               <div className="doc">
+                 <div className="reponame">
+                   <p>{rp.full_name}</p>
+                 </div>
+                 <div className="repodetail">
+                   <p>{rp.description === "" ? "Nada Por Aqui" : rp.description}</p>
+                 </div>
+               </div>
+             </a>
+            ))}
+          </div>
+        </S.repos>
+        <S.footer>Copyright ©2021 All rights reserved.</S.footer>
       </S.main>
     </>
   )

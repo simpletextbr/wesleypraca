@@ -14,13 +14,6 @@ function home():JSX.Element{
       <img className="logo" src={logo} alt="Logotipo do dev Wesley Praça" onClick={() => history.push('/wesleypraca/')}/>
         <S.body >
           <S.mainBackground />
-          <S.menu>
-            <p onClick={() => history.push('/wesleypraca/')}>HOME</p>
-            <p onClick={() => history.push('/wesleypraca/about')}>ABOUT</p>
-            <p onClick={() => history.push('/wesleypraca/contact')}>CONTACT</p>
-            {/* <p onClick={() => history.push('/wesleypraca/exp')}>EXPERIENCES</p>
-            <p onClick={() => history.push('/wesleypraca/services')}>SERVICES</p> */}
-          </S.menu>
           <S.presentation>
             <p className="function">FULLSTACK DEVELOPER</p>
             <p className="me">I´m Wesley Praça</p>
@@ -34,11 +27,6 @@ function home():JSX.Element{
                 <FiArrowRight size={20} color="#000000" />
               </S.hire>
             </S.rowbuttons>
-            {/* <S.mobileMenu>
-            <p onClick={() => history.push('/wesleypraca/exp')}>EXPERIENCES</p>
-            <p onClick={() => history.push('/wesleypraca/services')}>SERVICES</p>
-            <p onClick={() => history.push('/wesleypraca/contact')}>CONTACT</p>
-          </S.mobileMenu> */}
           </S.presentation>
         </S.body>
         <S.footer>Copyright ©2021 All rights reserved.</S.footer>

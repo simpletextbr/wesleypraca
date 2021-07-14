@@ -24,7 +24,7 @@ function Header({page}:IAbout):JSX.Element{
 
   return(
       <S.header show={showMenu} scroll={scroll}>
-        <img src={logo} alt="Logotipo do dev Wesley Praça" />
+        <img src={logo} alt="Logotipo do dev Wesley Praça" onClick={() => history.push('/wesleypraca')}/>
         { !showMenu ?
           <FiMenu size={20} color="#000000" onClick={() => setShowMenu(true)}/> :
           <FiX size={23} color="#000000" onClick={() => setShowMenu(false)}/>
