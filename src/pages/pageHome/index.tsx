@@ -10,18 +10,18 @@ function PageHome ():JSX.Element{
 
   return (
     <S.Main >
-      <img className="logo" src={logo} alt="Logotipo do dev Wesley Praça" onClick={() => history.push('/')}/>
+      <img className="logo" src={logo} alt="Logotipo do dev Wesley Praça" onClick={() => history.push('/wesleypraca')}/>
       <S.Body >
         <S.MainBackground />
         <S.Presentation>
           <p className="function">FULLSTACK DEVELOPER</p>
           <p className="me">I´m Wesley Praça</p>
           <S.Rowbuttons>
-            <S.About onClick={() => history.push('/about')}>
+            <S.About onClick={() => history.push('/wesleypraca/about')}>
               <p>MORE ABOUT ME</p>
               <FiArrowRight size={20} color="#ffffff" />
             </S.About>
-            <S.Hire onClick={() => history.push('/contact')}>
+            <S.Hire onClick={() => history.push('/wesleypraca/contact')}>
               <p>HIRE ME</p>
               <FiArrowRight size={20} color="#000000" />
             </S.Hire>
