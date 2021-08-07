@@ -11,13 +11,13 @@ interface ITitle {
 function TitlePages ({ title }:ITitle):JSX.Element{
 
   return (
-    <S.title>
+    <S.Title>
       <div className="link">
         <Link to="/"><p className="home">HOME<FiChevronRight size={16} /></p> </Link>
         <p>{title.toUpperCase()} <FiChevronRight size={16} color="#727272" /></p>
       </div>
       <p>{title}</p>
-    </S.title>
+    </S.Title>
   )
 
 }

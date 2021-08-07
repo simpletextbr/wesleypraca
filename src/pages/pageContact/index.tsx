@@ -12,7 +12,7 @@ interface IContacts {
   link: string;
 }
 
-function pageContact ():JSX.Element{
+function PageContact ():JSX.Element{
   const [ loadEnd, setLoadEnd ] = useState(false)
   const [ sendMessage, setSendMessage ] = useState(false)
 
@@ -49,12 +49,12 @@ function pageContact ():JSX.Element{
     <>
       <Header page="/contact"/>
       <TitlePages title="Contact Me" />
-      <S.main>
-        <S.box>
-          <S.text>
-            <S.titleContact>Contact</S.titleContact>
+      <S.Main>
+        <S.Box>
+          <S.Text>
+            <S.TitleContact>Contact</S.TitleContact>
             <p className="open">I`m <span>Open</span> for any suggestions and works in world wide or just have a chat.</p>
-            <S.titleContacts>You can find me here!</S.titleContacts>
+            <S.TitleContacts>You can find me here!</S.TitleContacts>
             <div className="socialMedias">
               {contacts.map((contact:IContacts, index) => (
                 <div className={`${contact.name}-contact`} key={index}>
@@ -65,20 +65,20 @@ function pageContact ():JSX.Element{
                 </div>
               ))}
             </div>
-          </S.text>
-          <S.wpp send={sendMessage}>
+          </S.Text>
+          <S.Wpp send={sendMessage}>
             {sendMessage === false &&
           <div className="inicial">
             <img src={Whatsapp} alt="logotipo do app Whatsapp" />
-            <S.message onClick={() => setSendMessage(true)}>Send Message <FiSend size={16} /></S.message>
+            <S.Message onClick={() => setSendMessage(true)}>Send Message <FiSend size={16} /></S.Message>
           </div> }
             {sendMessage === true &&
           <div className="contact">
-            <S.close><FiX size={20} onClick={() => {
+            <S.Close><FiX size={20} onClick={() => {
               setSendMessage(false)
               clearFields()
-            }}/></S.close>
-            <S.form onSubmit={sendWhatsAppMessage}>
+            }}/></S.Close>
+            <S.Form onSubmit={sendWhatsAppMessage}>
               <input
                 type="text"
                 placeholder="Name"
@@ -111,16 +111,16 @@ function pageContact ():JSX.Element{
                 required
               />
               <button type="submit">
-                <S.send>Send <FiSend size={16} /></S.send>
+                <S.Send>Send <FiSend size={16} /></S.Send>
               </button>
-            </S.form>
+            </S.Form>
           </div> }
-          </S.wpp>
-        </S.box>
-        <S.footer>Copyright ©2021 All rights reserved.</S.footer>
-      </S.main>
+          </S.Wpp>
+        </S.Box>
+        <S.Footer>Copyright ©2021 All rights reserved.</S.Footer>
+      </S.Main>
     </>
   )
 }
 
-export default pageContact
+export default PageContact

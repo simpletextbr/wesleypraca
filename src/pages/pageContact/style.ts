@@ -5,7 +5,7 @@ interface IMessage{
   send: boolean;
 }
 
-export const main = styled.div`
+export const Main = styled.div`
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -45,7 +45,7 @@ export const main = styled.div`
 
 `
 
-export const box = styled.div`
+export const Box = styled.div`
 
 @media screen and (max-width: 1000px){
   display: flex;
@@ -53,7 +53,7 @@ export const box = styled.div`
   background-color: #FFFFFF;
   border-radius: 4px;
   box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.5);
-  width: 360px;;
+  width: 60%;
   height: 860px;
   margin: 20px auto;
   animation: slideup 1s forwards;
@@ -85,14 +85,14 @@ export const box = styled.div`
 
 `
 
-export const titleContact = styled(title)`
+export const TitleContact = styled(title)`
   margin-left: 20px;
   margin-top: 20px;
   font-size:20px;
 
 `
 
-export const titleContacts = styled(title)`
+export const TitleContacts = styled(title)`
   margin-left: 20px;
   margin-top: 20px;
   font-size:16px;
@@ -101,7 +101,7 @@ export const titleContacts = styled(title)`
 
 `
 
-export const text = styled.div`
+export const Text = styled.div`
 @media screen and (max-width:1000px){
   width: 100%;
   height: 50%;
@@ -272,7 +272,7 @@ export const text = styled.div`
 
 `
 
-export const wpp = styled.div`
+export const Wpp = styled.div`
 
 @media screen and (max-width: 1000px){
   width: 100%;
@@ -304,7 +304,7 @@ export const wpp = styled.div`
       opacity: 0;
       overflow: hidden;
     `
-  }
+}
  }
  .contact{
   width: 100%;
@@ -327,7 +327,7 @@ export const wpp = styled.div`
       opacity: 1;
       overflow: none;
     `
-  }
+}
  }
 }
 
@@ -361,7 +361,7 @@ export const wpp = styled.div`
       opacity: 0;
       overflow: hidden;
     `
-  }
+}
  }
  .contact{
   width: 100%;
@@ -384,18 +384,18 @@ export const wpp = styled.div`
       opacity: 1;
       overflow: none;
     `
-  }
+}
  }
 }
 `
 
-export const message = styled(buttonDefault)`
+export const Message = styled(buttonDefault)`
 background-color: #FFFFFF;
 margin-top: 40px;
 color: #2bb201;
 `
 
-export const close = styled.div`
+export const Close = styled.div`
 color: #FFFFFF;
 position: absolute;
 top: 0;
@@ -410,7 +410,7 @@ cursor: pointer;
  }
 `
 
-export const form = styled.form`
+export const Form = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -473,14 +473,14 @@ export const form = styled.form`
   }
 `
 
-export const send  = styled(buttonDefault)`
+export const Send = styled(buttonDefault)`
   background-color: #FFFFFF;
   color: #50a3f2;
   width: 60%;
   margin: 40px auto;
 `
 
-export const footer = styled.footer`
+export const Footer = styled.footer`
 @media screen and (max-width: 1200px){
   display: flex;
   text-align: center;

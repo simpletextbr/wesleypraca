@@ -22,7 +22,7 @@ function Header ({ page }:IAbout):JSX.Element{
   }, [])
 
   return (
-    <S.header show={showMenu} scroll={scroll}>
+    <S.Header show={showMenu} scroll={scroll}>
       <img src={logo} alt="Logotipo do dev Wesley Praça" onClick={() => history.push('/')}/>
       { !showMenu ?
         <FiMenu size={20} color="#000000" onClick={() => setShowMenu(true)}/> :
@@ -35,7 +35,7 @@ function Header ({ page }:IAbout):JSX.Element{
         {/* <p className={page==="/exp" ? "active" : "default"} onClick={() => history.push('/wesleypraca/exp')}>EXPERIENCES</p>
                 <p className={page==="/services" ? "active" : "default"} onClick={() => history.push('/wesleypraca/services')}>SERVICES</p> */}
       </div>
-    </S.header>
+    </S.Header>
   )
 }
 

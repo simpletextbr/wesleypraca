@@ -1,8 +1,7 @@
-import styled  from 'styled-components'
+import styled from 'styled-components'
 import { buttonDefault } from '../../styles/globalStyles'
 
-
-export const main  = styled.div `
+export const Main = styled.div `
 
 
 @media screen and (min-width: 1200px){
@@ -19,7 +18,7 @@ export const main  = styled.div `
 }
 `
 
-export const body = styled.div`
+export const Body = styled.div`
 
 @media screen and (min-width: 1200px){
   display: flex;
@@ -29,7 +28,7 @@ export const body = styled.div`
 }
 `
 
-export const mainBackground =styled.div `
+export const MainBackground = styled.div `
 
 @media screen and (max-width: 1200px){
   width: 90vw;
@@ -51,43 +50,12 @@ export const mainBackground =styled.div `
 }
 `
 
-export const menu = styled.div`
-  display:none;
-@media screen and (min-width: 1200px){
-  position: absolute;
-  top: 0;
-  left: 20%;
-  margin-top: 10px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-
-  p{
-    font-size:16px;
-    color: #ffffff;
-    text-align: center;
-    cursor: pointer;
-    transition: all ease 0.2s;
-    transform: scale(0.8);
-
-    :hover{
-      transform:scale(1);
-    }
-  }
-
-  p + p {
-    margin-left: 20px;
-  }
-}
-`
-
-export const presentation = styled.div`
+export const Presentation = styled.div`
 @media screen and (max-width: 700px){
   position: absolute;
   top: 35%;
   bottom: 50%;
-  right: 20%;
+  right: 30%;
   display:flex;
   flex-direction:column;
 
@@ -148,7 +116,7 @@ export const presentation = styled.div`
 }
 `
 
-export const rowbuttons = styled.div`
+export const Rowbuttons = styled.div`
 @media screen and (max-width: 1200px){
   display: flex;
   flex-direction: row;
@@ -188,7 +156,7 @@ export const rowbuttons = styled.div`
 }
 `
 
-export const about = styled(buttonDefault)`
+export const About = styled(buttonDefault)`
 
 @media screen and (max-width:700px){
   background: #1787EE;
@@ -203,7 +171,7 @@ export const about = styled(buttonDefault)`
 }
 `
 
-export const hire = styled(buttonDefault)`
+export const Hire = styled(buttonDefault)`
 
 @media screen and (max-width:700px){
   background: #ffffff;
@@ -218,48 +186,7 @@ export const hire = styled(buttonDefault)`
 }
 `
 
-export const mobileMenu = styled.div `
-
-display: none;
-
-@media screen and (max-width: 700px) {
-  display: grid;
-  grid-template-columns: 1fr;
-  row-gap: 10px;
-  margin-top: 20px;
-
-
-  p{
-    font-size:16px;
-    color: #ffffff;
-    text-align: center;
-    cursor: pointer;
-
-  }
-
-}
-
-
-
-@media screen and (min-width: 700px) and (max-width: 1200px){
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 20px;
-  margin-top: 20px;
-
-
-  p{
-    font-size:16px;
-    color: #ffffff;
-    text-align: center;
-    cursor: pointer;
-
-  }
-
-}
-`
-
-export const footer = styled.footer`
+export const Footer = styled.footer`
 @media screen and (max-width: 1200px){
   position: absolute;
   bottom: 0;

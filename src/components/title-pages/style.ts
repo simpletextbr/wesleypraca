@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
-
-export const title = styled.div `
+export const Title = styled.div `
 
 @media screen and (max-width:700px){
   display: flex;

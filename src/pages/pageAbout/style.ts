@@ -14,8 +14,7 @@ interface IPageAbout {
   type?:string,
 }
 
-
-export const main = styled.div`
+export const Main = styled.div`
 display:flex;
 flex-direction: column;
 align-items: center;
@@ -66,11 +65,11 @@ max-width: 100vw;
 
 `
 
-export const titleAbout = styled(title)`
+export const TitleAbout = styled(title)`
   margin-left: 20px;
 `
 
-export const text = styled.div`
+export const Text = styled.div`
   font-size: 18px;
   animation: slideup 1s forwards;
   margin-left: 20px;
@@ -111,7 +110,7 @@ export const text = styled.div`
 }
 `
 
-export const presentation = styled.div`
+export const Presentation = styled.div`
   display:flex;
   flex-direction: row;
 
@@ -122,7 +121,7 @@ export const presentation = styled.div`
 
 `
 
-export const address = styled.div`
+export const Address = styled.div`
 
 @media screen and (max-width: 500px){
   width: 100%;
@@ -280,7 +279,7 @@ export const address = styled.div`
 }
 `
 
-export const card = styled.div`
+export const Card = styled.div`
 
   @media screen and (max-width: 500px){
     display:flex;
@@ -290,13 +289,13 @@ export const card = styled.div`
     width: 40%;
     margin-left: auto;
     margin-right: auto;
-    ${({type}:IPageAbout) => type === "Zip Code" && css`
+    ${({ type }:IPageAbout) => type === 'Zip Code' && css`
       display: none;
     `}
-    ${({type}:IPageAbout) => type === "Date of Birth" && css`
+    ${({ type }:IPageAbout) => type === 'Date of Birth' && css`
       display: none;
     `}
-    ${({type}:IPageAbout) => type === "Adress" && css`
+    ${({ type }:IPageAbout) => type === 'Adress' && css`
       display: none;
     `}
   }
@@ -325,7 +324,7 @@ export const card = styled.div`
   }
 `
 
-export const mobileTitle = styled(title)`
+export const MobileTitle = styled(title)`
   @media screen and (max-width: 500px){
       display:flex;
       align-items: center;
@@ -339,7 +338,7 @@ export const mobileTitle = styled(title)`
 
 `
 
-export const image = styled.div`
+export const Image = styled.div`
 
 @media screen and (max-width: 1200px){
   width: 220px;
@@ -364,7 +363,7 @@ export const image = styled.div`
       animation: load 1s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
     }
 
-  ${({ image, load }:IPageAbout) =>  load &&
+  ${({ image, load }:IPageAbout) => load &&
     css`
       background-size: cover;
       background-image: url(${image});
@@ -397,7 +396,7 @@ export const image = styled.div`
       animation: load 1s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
     }
 
-  ${({ image, load }:IPageAbout) =>  load &&css`
+  ${({ image, load }:IPageAbout) => load && css`
         background-size: cover;
         background-image: url(${image});
         transform: scale(1);
@@ -410,7 +409,7 @@ export const image = styled.div`
 
 `
 
-export const cv = styled(buttonDefault)`
+export const Cv = styled(buttonDefault)`
   background: #1787EE;
   color: #ffffff;
   width:180px;
@@ -419,7 +418,7 @@ export const cv = styled(buttonDefault)`
   overflow:hidden;
 `
 
-export const titleSkills  = styled(title)`
+export const TitleSkills = styled(title)`
   font-size:20px;
   margin-right: 20px;
   padding-top: 30px;
@@ -434,7 +433,7 @@ export const titleSkills  = styled(title)`
   `}
 `
 
-export const skills = styled.div`
+export const Skills = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -632,7 +631,7 @@ export const skills = styled.div`
   }
 `
 
-export const skill = styled.div`
+export const Skill = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -640,7 +639,7 @@ export const skill = styled.div`
 
 `
 
-export const progressBar = styled.div`
+export const ProgressBar = styled.div`
   width: 100%;
   height: 26px;
   background-color: #e9e9e9;
@@ -727,7 +726,7 @@ export const progressBar = styled.div`
   }
 `
 
-export const titleRepos  = styled(title)`
+export const TitleRepos = styled(title)`
   font-size:20px;
   margin-right: 20px;
   padding-top: 30px;
@@ -742,7 +741,7 @@ export const titleRepos  = styled(title)`
   `}
 `
 
-export const repos = styled.div`
+export const Repos = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -931,7 +930,7 @@ export const repos = styled.div`
     }
 `
 
-export const footer = styled.footer`
+export const Footer = styled.footer`
 @media screen and (max-width: 1200px){
   display: flex;
   text-align: center;
