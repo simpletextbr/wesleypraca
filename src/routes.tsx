@@ -9,7 +9,7 @@ function Routes ():JSX.Element{
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/wesleypraca" exact component={Home} />
+        <Route path="/wesleypraca/" exact component={Home} />
         <Route path="/wesleypraca/about" component={About} />
         <Route path="/wesleypraca/contact" component={Contact} />
       </Switch>
