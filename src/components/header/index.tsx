@@ -23,15 +23,15 @@ function Header ({ page }:IAbout):JSX.Element{
 
   return (
     <S.Header show={showMenu} scroll={scroll}>
-      <img src={logo} alt="Logotipo do dev Wesley Praça" onClick={() => history.push('/')}/>
+      <img src={logo} alt="Logotipo do dev Wesley Praça" onClick={() => history.push('/wesleypraca')}/>
       { !showMenu ?
         <FiMenu size={20} color="#000000" onClick={() => setShowMenu(true)}/> :
         <FiX size={23} color="#000000" onClick={() => setShowMenu(false)}/>
       }
       <div className="menu">
-        <p className={page === '/' ? 'active' : 'default'} onClick={() => history.push('/')}>HOME</p>
-        <p className={page === '/about' ? 'active' : 'default'} onClick={() => history.push('/about')}>ABOUT</p>
-        <p className={page === '/contact' ? 'active' : 'default'} onClick={() => history.push('/contact')}>CONTACT</p>
+        <p className={page === '/' ? 'active' : 'default'} onClick={() => history.push('/wesleypraca')}>HOME</p>
+        <p className={page === '/about' ? 'active' : 'default'} onClick={() => history.push('/wesleypraca/about')}>ABOUT</p>
+        <p className={page === '/contact' ? 'active' : 'default'} onClick={() => history.push('/wesleypraca/contact')}>CONTACT</p>
         {/* <p className={page==="/exp" ? "active" : "default"} onClick={() => history.push('/wesleypraca/exp')}>EXPERIENCES</p>
                 <p className={page==="/services" ? "active" : "default"} onClick={() => history.push('/wesleypraca/services')}>SERVICES</p> */}
       </div>
